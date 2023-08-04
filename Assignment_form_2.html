@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resource sign in</title>
+    <link rel="stylesheet" href="assignment2.css"> 
+    
+</head>
+<body>
+    <form action="" method="get"  onclick="validate()"  onsubmit="return validate()">
+        <div class="form">          
+    <h1 >Registration Form</h1>
+    <div class="main"><p >
+    <input type="text" id="name" placeholder="Your Name" autocomplete="on"  class="put"></p>
+    <b><span id="nameerror"></span></b>
+    <p >
+    <input type="tel" id="phone" placeholder="Phone number" autocomplete="on"   class="put"></p>
+    <b><span id="numbererror"></span></b>
+    <p >
+    <input type="email" id="email" placeholder="Your Email" autocomplete="on" 
+    style="height: 1cm" class="put"></p>
+    <b><span id="emailerror"></span></b>
+    <p >
+    <input type="password" id="password"  class="put" placeholder="Password"></p>
+    <b><span id="passworderror"></span></b>
+    <p class="check"><input type="checkbox"><label for="policies" style="font-size: 15px" >I agree to all the terms and condition</label></p>
+     <p class="check"> <input type="checkbox"><label for="policy" style="font-size: 15px" >  I agree to subscribe to the news letter</label></p></div>
+    <br>
+<button type="submit" class="but" > <strong>Subscribe</strong> </button><br><br>
+</div>
+<script src="form.js"></script>
+</form>
+</body> 
+</html>
