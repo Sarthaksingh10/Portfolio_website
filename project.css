@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    text-decoration: none;
+    margin-top: 0;
+    background-color: black;
+}
+.heading{
+    background-color: aqua;
+    color: black;
+font-size: 30px;
+text-align: center;
+}
+.about{
+    color: aliceblue;
+    font-size: 35px;
+}
+button{
+    align-items: center;
+    margin-left: 40%;
+    text-align: center;
+    font-size: 40px;
+    background-color: skyblue; 
+    font-style:inherit;
+    border-color: blue;
+    padding: 5px;
+    display: flex;
+}
+img{
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    margin: 20px;
+}

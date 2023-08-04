@@ -1,0 +1,70 @@
+body{
+    background-color: wheat;
+    margin: 0;
+}
+div.menu{
+    
+    background-color: aqua;
+    font-size: 40px;
+    font-style: italic;
+    color: blue;
+    padding: 10px;
+}
+a{
+    text-align: right;
+    display: inline-flex;
+    justify-content: center;
+}
+span{
+    padding-right: 10px;
+    float: right;
+}
+button{
+    font-size: 30px;
+    padding: 5px;
+    background-color: palegreen;
+    border-color: brown;
+}
+main{
+    font-size: 120px;
+}
+img{
+
+  border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    float:right;
+   
+}
+.para{
+    display: flex;
+    float: left;
+}
+.image{
+    display: flex;
+    float: right;
+    margin-top: 80px;
+}
+a:link{
+  
+ font-style: italic;
+}
+a:hover{
+    color: red;
+}
+.no-bullets{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+    margin: 5px;
+}
+.tweet{
+    color: skyblue;
+    font-size: 48px;
+    display: block;
+    margin: 6px;
+    display: flex;
+}
+ 
