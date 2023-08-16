@@ -1,7 +1,6 @@
 body{
     margin: 0;
     text-decoration: none;
-    
     background-color: black;
 }
 .heading{
@@ -10,29 +9,46 @@ body{
     padding: 1px;
 font-size: 25px;
 text-align: center;
+justify-content: center;
 margin: 0;
+height: 100px;
+width: 100%;
 }
 .about{
     color: aliceblue;
     font-size: 35px;
-}
-button{
-    align-items: center;
-    margin-left: 40%;
-    text-align: center;
-    font-size: 40px;
-    background-color: skyblue; 
-    font-style:inherit;
-    border-color: blue;
-    padding: 5px;
-    border-radius: 10px;
-    display: flex;
 }
 img{
     height: 250px;
     width: 250px;
     border-radius: 10px;
     margin: 20px;
+}
+.but{
+    padding-top: 50px;
+    font-size: 40px;
+    margin-bottom: 0;
+     margin-top: 13%; 
+    height:100px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.523);
+    color:black;
+text-align: center;
+justify-content: center;
+}
+.ind{
+    float: left;
+    margin-left: 2%;
+}
+.cert{
+    float: right;
+    margin-right: 3%;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: red;
 }
 @media(min-width:200px) and (max-width:300px){
     body{
