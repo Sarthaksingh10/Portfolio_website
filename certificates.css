@@ -1,0 +1,15 @@
+body{
+    background-color: bisque;
+    color: black;
+    text-decoration: none;
+    margin: 0;
+}
+.head1{
+    color: black;
+    font: 600;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    background-color:plum;
+    width: 100%;
+}
