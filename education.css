@@ -27,8 +27,8 @@ ul{
 }
 li{
     list-style-type: none;
-   margin-left: 280px;
-   margin-right: 150px;
+   margin-left: 120px;
+   margin-right: 120px;
    margin-top: 10px;
 }
     .but{
@@ -46,6 +46,10 @@ li{
     .cert{
         float: right;
         margin-right: 5px;
+    }
+    .exp{
+        float: right;
+        margin-right: 2px;
     }
 big{
     font-size: 25px;
