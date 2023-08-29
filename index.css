@@ -64,6 +64,17 @@ img{
 a:hover{
     color: red;
 }
+.icons{
+    float: left;
+    margin-left: -32%;
+}
+i{
+
+    margin-left: 2px;
+    float: left;
+    margin-top: 450px;
+    font-size: 15px;
+}
 @media(min-width:200px) and (max-width:300px){
     body{
         display: inherit;
