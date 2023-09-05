@@ -1,8 +1,8 @@
 function validate()
 { let contact= document.getElementById('name');
-let contactdetails=document.getElementById('phone')
-let avalidemail=document.getElementById('email')
-let avalidpassword=document.getElementById('password')
+let contactdetails=document.getElementById('phone');
+let avalidemail=document.getElementById('email');
+let avalidpassword=document.getElementById('password');
 
 
 if(document.getElementById('name').value.trim()=='')
@@ -51,6 +51,9 @@ else{
     return true
 }
 }
+
+
+
 
 
 
